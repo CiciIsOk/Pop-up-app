@@ -1,0 +1,42 @@
+.pop-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.pop-up-inner{
+    position: relative;
+    padding: 32px;
+    width: 410px;
+    height: 350px;
+    background-color: #fff;
+    background-image: url(./Frog.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+
+}
+
+.pop-up-inner .close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.close-btn {
+    background-color:#488000;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
